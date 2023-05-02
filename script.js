@@ -6,5 +6,5 @@ const picArray = [
 
 let randomPicture = document.querySelector(".wrapper");
 
-let randomIndex = Math.floor(Math.random() * 3);
+let randomIndex = Math.floor(Math.random() * picArray.length);
 randomPicture.style.backgroundImage = `url(${picArray[randomIndex]})`;
